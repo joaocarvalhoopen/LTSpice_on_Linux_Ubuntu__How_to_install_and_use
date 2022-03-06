@@ -49,11 +49,11 @@ The help file ```LTspiceHelp.chm``` will not open correctly inside LTspice. But 
 
 To open the file ```LTspiceHelp.pdf``` just do:
 
-1. Open the file explorer on Linux.
+1. Open the file explorer on Linux ```/home/<user>/``` .
 
 2. Do **Ctrl + H** to see the hidden files and directories that start with a "." (dot) .
 
-3. Navegate to ```/home/joao/.wine/drive_c/Program Files/LTC/LTspiceXVII/```
+3. Navegate to ```~/.wine/drive_c/Program Files/LTC/LTspiceXVII/```
 
 4. Double click on the file ```LTspiceHelp.pdf``` .
 
