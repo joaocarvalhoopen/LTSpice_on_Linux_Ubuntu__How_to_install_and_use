@@ -45,7 +45,7 @@ cp ~/my_files/test.asc ~/.wine/drive_c/my_ltspice_files_2/
 
 ## LTspice Help Manual
 
-The help file ```LTspiceHelp.chm``` will not open correctly inside LTspice. But LTspice, comes also with the documentation in the PDF format the file is ```LTspiceHelp.pdf``` . Just open that file.
+The help file ```LTspiceHelp.chm``` will not open correctly inside LTspice. But LTspice, comes also with the documentation in the PDF format. The file is ```LTspiceHelp.pdf``` , just open it.
 
 To open the file ```LTspiceHelp.pdf``` just do:
 
