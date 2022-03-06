@@ -1,8 +1,8 @@
-# LTSpice on Linux Ubuntu - How to install and use
+# LTspice on Linux Ubuntu - How to install and use
 Make great analog designs
 
 ## Description
-This are the steps to install and use LTSpice 64 bits on Linux Ubuntu 20.04 . <br>
+This are the steps to install and use LTspice 64 bits on Linux Ubuntu 20.04 . <br>
 
 ## Installation
 
@@ -22,7 +22,7 @@ wine LTspice64.exe
 rm LTspice64.exe
 ```
 
-## How to execute LTSpice 
+## How to execute LTspice 
 
 ```
 # Start lstpice through wine
@@ -32,7 +32,7 @@ wine ~/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/XVIIx64.exe
 ## Create a directory for your simulation files
 
 ```
-# To open file in LTSpice, move it to somewhere in ~/.wine/drive_c folder which is the C drive in wine.
+# To open file in LTspice, move it to somewhere in ~/.wine/drive_c folder which is the C drive in wine.
 mkdir ~/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/examples/Educational/my_ltspice_files
 
 # Copy file from Examples to my_ltspice_files diretory this is more pratical.
@@ -43,7 +43,24 @@ mkdir ~/.wine/drive_c/my_ltspice_files_2
 cp ~/my_files/test.asc ~/.wine/drive_c/my_ltspice_files_2/
 ```
 
-## References on LTSpice Simulation
+## LTspice Help Manual
+
+The help file ```LTspiceHelp.chm``` will not open correctly inside LTspice. But LTspice, comes also with the documentation in the PDF format the file is ```LTspiceHelp.pdf``` . Just open that file.
+
+To open the file ```LTspiceHelp.pdf``` just do:
+
+1. Open the file explorer on Linux.
+
+2. Do **Ctrl + H** to see the hidden files and directories that start with a "." (dot) .
+
+3. Navegate to ```/home/joao/.wine/drive_c/Program Files/LTC/LTspiceXVII/```
+
+4. Double click on the file ```LTspiceHelp.pdf``` .
+
+5. Do **Ctrl + H** to change again to not see the hidden files and directories that start with a "." (dot) .
+
+
+## References on LTspice Simulation
 
 1. **LTspice - Site Analog Devices** <br>
    Program, documentation, tutorials, videos. <br>
@@ -56,7 +73,7 @@ cp ~/my_files/test.asc ~/.wine/drive_c/my_ltspice_files_2/
 3. Play List - **LTspice** - **Getting Started Tutorial** - Official tutorials <br>
    [https://www.analog.com/en/education/education-library/videos/video-series/ltspice-getting-started-tutorial.html](https://www.analog.com/en/education/education-library/videos/video-series/ltspice-getting-started-tutorial.html) 
 
-4. Play List - **LTspice** - Essentials Tutorial - Official tutorials <br>
+4. Play List - **LTspice** - **Essentials Tutorial** - Official tutorials <br>
    [https://www.analog.com/en/education/education-library/videos/video-series/ltspice-essentials-tutorial.html](https://www.analog.com/en/education/education-library/videos/video-series/ltspice-essentials-tutorial.html)
 
 5. Video - **LTspice** - **Stepping Parameters** <br>
@@ -69,7 +86,7 @@ cp ~/my_files/test.asc ~/.wine/drive_c/my_ltspice_files_2/
    by Gilles Brocard <br>
 
 
-## References on installing LTSpice
+## References on installing LTspice
 
 * ```daniw/ltspice.sh``` - install ltspice on ubuntu (arch commented) <br>
   Note: I use this info but updated it and modified it. <br>
