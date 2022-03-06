@@ -19,7 +19,7 @@ wget https://ltspice.analog.com/software/LTspice64.exe
 
 # Install LTSpice
 wine LTspice64.exe
-rm LTspiceIV.exe
+rm LTspice64.exe
 ```
 
 ## How to execute LTSpice 
@@ -62,10 +62,10 @@ cp ~/my_files/test.asc ~/.wine/drive_c/my_ltspice_files_2/
 5. Video - **LTspice** - **Stepping Parameters** <br>
    [https://www.analog.com/en/education/education-library/videos/5579239884001.html](https://www.analog.com/en/education/education-library/videos/5579239884001.html)
 
-6. Book - **The LTSpice XVII simulator** Commands and Applications <br>
+6. Book - **The LTSpice XVII simulator** - Commands and Applications <br>
    by Gilles Brocard <br>
 
-7. Book - **The LTSpice IV Simulator** Manual, methods and applications <br>
+7. Book - **The LTSpice IV Simulator** - Manual, methods and applications <br>
    by Gilles Brocard <br>
 
 
