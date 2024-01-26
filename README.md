@@ -25,7 +25,12 @@ rm LTspice64.exe
 ## How to execute LTspice 
 
 ```
-# Start lstpice through wine
+# if LTspice is installed for current user only:
+wine ~/.wine/drive_c/users/<username>/AppData/Local/Programs/ADI/LTspice/LTspice.exe
+```
+
+```
+# if it's installed system-wide:
 wine ~/.wine/drive_c/Program\ Files/LTC/LTspiceXVII/XVIIx64.exe
 ```
 
